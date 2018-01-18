@@ -1,9 +1,30 @@
-## Welcome to GitHub Pages
+## Welcome to doc test site!
 
-You can use the [editor on GitHub](https://github.com/bmcgough/fuzzy-lamp/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Languages
+#### bash
+```bash
+#!/bin/bash
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+. /app/lmod/lmod/init/bash
+module use /app/modules/all
+ml R/3.4.3-foss-2016b-fh2
 
+for s in ~/*.R
+do
+  Rscript $s
+done
+```
+#### R
+```R
+library('rhdf5')
+```
+#### python
+```Python
+import sys
+
+if bob:
+  print("bob")
+```
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
