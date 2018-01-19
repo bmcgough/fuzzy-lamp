@@ -1,6 +1,4 @@
 theme: jekyll-theme-cayman
 collections:
-  - linux
+  linux:
     output: true
-  - HPC
-  - software
