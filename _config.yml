@@ -2,3 +2,8 @@ theme: jekyll-theme-cayman
 collections:
   linux:
     output: true
+    
+# kramdown speaks Github Format Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
