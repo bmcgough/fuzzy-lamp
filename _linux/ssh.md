@@ -9,3 +9,7 @@ The key feature that SSH has is that it encrypts all communication. Using a publ
 ## Basic use
 
 The simplest way to use ssh is to simply supply the hostname as the only argument: `ssh rhino`. The most common adjustment to this is to specify your username as well. This is often necessary if the username on your local system is no the same as your username on the remote system. For example, I am `Ben` on my macOS system, but `bmcgough` on our Linux servers. So I run `ssh bmcgough@rhino` from my macOS laptop.
+
+## Troubleshooting
+
+* Newer versions of OpenSSH show you 
