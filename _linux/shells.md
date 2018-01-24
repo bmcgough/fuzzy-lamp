@@ -1,3 +1,9 @@
+---
+title: shells
+layout: page
+description: information about common shells
+---
+
 # Linux Shells
 
 A shell is a command line interpreter that is the most commonly used method to run programs on a linux host.
