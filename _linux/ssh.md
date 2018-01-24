@@ -1,3 +1,9 @@
+---
+title: SSH for fun and profit
+layout: page
+description: stupid ssh tips and tricks
+---
+
 # SSH -or- Secure SHell
 
 In order to connect to a remote system, you need a method or protocol to perform the communication. The method used today to make a connection to a remote server or host is called SSH (Secure SHell). This is a bit of misnomer as SSH is not a shell itself, just a method of running a shell (or other process) on a remote system.
