@@ -3,6 +3,9 @@ collections:
   linux:
     output: true
     permalink: /linux/:path/
+  HPC:
+    output: true
+    permalink: /HPC/:path/
 
 # Tipue search settings
 tipue_search:
