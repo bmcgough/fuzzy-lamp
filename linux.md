@@ -7,7 +7,7 @@ title: linux docs
 
 
 <a href="{{ linux.url | prepend: site.baseurl }}">
-        <h2>{{ linux.title }}</h2>
+        {{ linux.title }}
 </a>
 
 <p class="post-excerpt">{{ linux.description | truncate: 160 }}</p>
