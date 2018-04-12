@@ -15,7 +15,7 @@ tipue_search:
 
 # build
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: minima
 plugins:
   - jekyll-feed
 exclude:
