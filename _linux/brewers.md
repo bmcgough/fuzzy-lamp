@@ -8,4 +8,4 @@ description: information about pictures
 
 Picture:
 
-![](/assets/brewers/2018-06-21-14-05-06.png)
+![](/wiki/assets/brewers/2018-06-21-14-07-18.png)
