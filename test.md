@@ -8,3 +8,7 @@ title: assets test
 {{ a.path }}
 
 {% endfor %} 
+
+Picture:
+
+![](assets/2018-06-21-12-28-44.png)
