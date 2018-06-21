@@ -5,6 +5,6 @@ title: assets test
 
 {% for a in site.static_files %}
 
-a.path
+{{ a.path }}
 
 {% endfor %} 
