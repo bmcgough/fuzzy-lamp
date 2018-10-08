@@ -18,7 +18,8 @@ var store = [
         "title": {{ doc.title | jsonify }},
         "excerpt":
           {%- if site.search_full_content == true -%}
-            {{ doc.content |
+            {{ doc.content | newline_to_br |
+              replace:"</br>", " " |
               replace:"</p>", " " |
               replace:"</h1>", " " |
               replace:"</h2>", " " |
@@ -26,9 +27,10 @@ var store = [
               replace:"</h4>", " " |
               replace:"</h5>", " " |
               replace:"</h6>", " "|
-            strip_html | newline_to_br | replace:'<br>', ' ' | jsonify }},
+            strip_html | jsonify }},
           {%- else -%}
-            {{ doc.content |
+            {{ doc.content | newline_to_br |
+              replace:"</br>", " " |
               replace:"</p>", " " |
               replace:"</h1>", " " |
               replace:"</h2>", " " |
@@ -36,7 +38,7 @@ var store = [
               replace:"</h4>", " " |
               replace:"</h5>", " " |
               replace:"</h6>", " "|
-            strip_html | newline_to_br | replace:'<br>', ' ' | truncatewords: 50 | jsonify }},
+            strip_html | truncatewords: 50 | jsonify }},
           {%- endif -%}
         "categories": {{ doc.categories | jsonify }},
         "tags": {{ doc.tags | jsonify }},
