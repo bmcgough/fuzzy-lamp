@@ -15,9 +15,14 @@ tipue_search:
 
 # build
 markdown: kramdown
-theme: minima
+
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
+  
+remote_theme: "mmistakes/minimal-mistakes"
+
+minimal_mistakes_skin: "contrast"
