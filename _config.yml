@@ -7,18 +7,11 @@ collections:
     output: true
     permalink: /HPC/:path/
 
-# Tipue search settings
-tipue_search:
-  include:
-    pages: true
-    collections: [linux, HPC]
-
 # build
 markdown: kramdown
 
 plugins:
   - jekyll-remote-theme
-  - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
