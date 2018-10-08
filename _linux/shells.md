@@ -6,7 +6,8 @@ description: information about common shells
 
 # Linux Shells
 
-A shell is a command line interpreter that is the most commonly used method to run programs on a linux host.
+A shell is a command line interpreter that is the most commonly used method to run programs on a linux host. here
+here
 When you use `ssh` to connect to a remote server, most of the time you will execute a shell on the remote server.
 A shell will give you a prompt and wait for commands. Prompts can be customized, but the common ubuntu prompt looks like this:
 ```bash
