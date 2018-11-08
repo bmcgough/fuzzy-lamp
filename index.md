@@ -17,6 +17,7 @@ Name|Type|Authentication|Authorization|Location
 ## This is the next section
 
 Node Type|Cores|RAM|CPU|Node Count
+---|---|---|---|---
 {%- for node in site.data.resources.gizmo.nodes %}
 {{ node }}|{{ node.cores }}|{{ node.memory_gb }}|{{ node.processor_model }}|{{ node.node_count }}
 {%- endfor %}
