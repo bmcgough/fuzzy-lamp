@@ -1,0 +1,78 @@
+type: HPC
+location: FHCRC
+access:
+  -
+    type: terminal
+    url: ssh://rhino
+    auth: hutchnetID
+    auth_type: LDAP
+scheduler:
+  -
+    name: slurm
+    version: 1
+nodes:
+  - name: f
+    cores: 4
+    memory_gb: 32
+    processor_model: E3-1270v3
+    processor_manufacturer: Intel
+    manufacturer: SuperMicro
+    vendor: Silicon Mechanics
+    model: Rackform iServ R4920
+    local_storage:
+      -
+        type: hard drive
+        disks: 1
+        size_gb: 800
+        filesystem: ext4
+        mount: /loc
+    node_count: 456
+  - name: g
+    cores: 12
+    memory_gb: 256
+    processor_model: E5-1234v666
+    processor_manufacturer: Intel
+    manufacturer: SuperMicro
+    vendor: SiliconMechanics
+    model: 6028U 2U Ultra NVMe Server
+    local_storage:
+      -
+        type: hard drive
+        disks: 6
+        size_gb: 5300
+        filesystem: zfs
+        mount: /loc
+    node_count: 18
+  - name: h
+    cores: 28
+    memory_gb: 768
+    processor_model: E5-1234v666
+    processor_manufacturer: Intel
+    manufacturer: SuperMicro
+    vendor: Silicon Mechanics
+    model: 6028U 2U Ultra NVMe Server
+    local_storage:
+      -
+        type: hard disk
+        disks: 6
+        size_gb: 5300
+        filesystem: zfs
+        mount: /loc
+    node_count: 3
+  - name: rhino
+    cores: 14
+    sockets: 2
+    memory_gb: 384
+    processor_model: E5-1234v666
+    processor_manufacturer: Intel
+    manufacturer: SuperMicro
+    vendor: Silicon Mechanics
+    model: Super Server
+    local_storage:
+      -
+        type: hard disk
+        disks: 6
+        size_gb: 5300
+        filesystem: zfs
+        mount: /loc
+    node_count: 3
