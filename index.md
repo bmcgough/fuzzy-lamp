@@ -1,6 +1,7 @@
 ---
-title: Scientific Computing Supported Resources
-last_modified_at: 2018-09-14
+title: About this Wiki
+layout: splash
+permalink: /
 ---
 
 ## Auto-generated Table
