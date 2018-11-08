@@ -11,6 +11,7 @@ Name|Type|Authentication|Authorization|Location
 ---|---|---|---|---
 {% for resource in site.data.resources -%}
 {{ resource.name }}|{{ resource.type }}|{{ resource.access[0].type }}|{{ resource.access[0].auth }}|{{ resource.location }}
+
 {%- endfor -%}
 
 ## This is the next section
